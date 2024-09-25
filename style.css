@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e0e7ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .main-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .timer-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+  }
+  
+  .timer-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .time-display {
+    font-size: 4rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .btn {
+    margin: 5px;
+    padding: 10px 18px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .btn i {
+    font-size: 1.5rem;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .btn-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #003e8a);
+  }
+  
+  .btn-danger {
+    background: linear-gradient(135deg, #dc3545, #c82333);
+    border-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background: linear-gradient(135deg, #c82333, #a71d2a);
+  }
+  
+  .btn-secondary {
+    background: linear-gradient(135deg, #6c757d, #5a6268);
+    border-color: #6c757d;
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background: linear-gradient(135deg, #5a6268, #44494e);
+  }
+  
+  .instructions {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  .instructions i {
+    color: #007bff;
+  }
+  
+  @media (max-width: 600px) {
+    .time-display {
+      font-size: 3rem;
+    }
+    .timer-container {
+      margin: 0 20px;
+      padding: 30px;
+    }
+  }
+  
